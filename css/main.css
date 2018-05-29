@@ -1,0 +1,134 @@
+/* Basis styles */
+
+html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+body {
+
+    max-width: 1280px;
+    background-color: #363535
+}
+
+/* Navigation */
+
+nav ul {
+
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    list-style: none;
+    margin: 9;
+}
+
+nav ul img {
+    width: 90px;
+    height: 90px;
+    padding-right: 1em;
+    margin-left: 0.5em;
+
+
+}
+
+nav ul li {
+    /*background-color: #1f1f1f;*/
+    position: relative;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-bottom: 1em;
+    margin-top: 2em;
+}
+
+a {
+    text-decoration: none;
+    font-family: sans-serif;
+    color: white;
+    font: 1em;
+}
+
+article a {
+    text-decoration: none;
+    font-family: sans-serif;
+    color: #ffcfe7;
+    padding: 3.4em;
+
+
+}
+
+article li {
+
+    font-family: sans-serif;
+    color: white;
+    margin-left: 3em;
+
+}
+
+.dropdown > ul {
+    display: none;
+    position: absolute;
+    background-color: #1f1f1f;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    padding: 1px 1px;
+    z-index: 1;
+
+}
+
+.dropdown > ul li {
+    white-space: nowrap;
+
+    font-size: 1em;
+}
+
+
+.dropdown:hover > ul {
+    display: block;
+
+
+}
+
+h1 {
+    font-family: 'Gothic A1', sans-serif;
+    margin-left: 1.6em;
+    color: white;
+}
+
+h2 {
+    font-size: 1.5em;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 2.2em;
+    color: white;
+}
+
+h3 {
+    font-size: 1.2em;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 2.7em;
+    color: white;
+}
+
+p {
+    font-family: sans-serif;
+    margin-left: 3.4em;
+    color: white;
+}
+
+article img {
+    width: 70vw;
+    margin-left: 3.3em
+}
+
+iframe {
+    margin-left: 3.4em;
+}
+
+footer {
+    font-size: 0.8em;
+    margin-left: 0.7em;
+
+}
+
+video {
+    margin-left: 3.2em;
+}
